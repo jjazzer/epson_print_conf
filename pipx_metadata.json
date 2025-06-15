@@ -1,0 +1,67 @@
+{
+    "injected_packages": {},
+    "main_package": {
+        "app_paths": [
+            {
+                "__Path__": "/home/taujhon/.local/share/pipx/venvs/epson_print_conf/bin/epc",
+                "__type__": "Path"
+            },
+            {
+                "__Path__": "/home/taujhon/.local/share/pipx/venvs/epson_print_conf/bin/epc-gui",
+                "__type__": "Path"
+            },
+            {
+                "__Path__": "/home/taujhon/.local/share/pipx/venvs/epson_print_conf/bin/epc-parse-devices",
+                "__type__": "Path"
+            }
+        ],
+        "app_paths_of_dependencies": {
+            "black": [
+                {
+                    "__Path__": "/home/taujhon/.local/share/pipx/venvs/epson_print_conf/bin/black",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "/home/taujhon/.local/share/pipx/venvs/epson_print_conf/bin/blackd",
+                    "__type__": "Path"
+                }
+            ],
+            "text-console": [
+                {
+                    "__Path__": "/home/taujhon/.local/share/pipx/venvs/epson_print_conf/bin/text_console",
+                    "__type__": "Path"
+                }
+            ]
+        },
+        "apps": [
+            "epc",
+            "epc-gui",
+            "epc-parse-devices",
+        ],
+        "apps_of_dependencies": [
+          "pyyaml",
+          "pysnmp",
+          "pysnmp_sync_adapter",
+          "tkcalendar",
+          "pyperclip",
+          "black",
+          "tomli",
+          "text-console"
+        ],
+        "include_apps": true,
+        "include_dependencies": false,
+        "package": "epson_print_conf",
+        "package_or_url": "epson_print_conf",
+        "package_version": "1.0.0",
+        "pinned": false,
+        "pip_args": [],
+        "suffix": ""
+    },
+    "pipx_metadata_version": "0.5",
+    "python_version": "Python 3.13.3",
+    "source_interpreter": {
+        "__Path__": "/usr/bin/python3.13",
+        "__type__": "Path"
+    },
+    "venv_args": []
+}
